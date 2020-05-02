@@ -1,0 +1,140 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    
+}
+
+.container{
+    background-image: url(../resources/img/BackgroundIMG.jpg);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+ 
+.wrapper{
+
+    display: flex;
+    background: #fff;
+    justify-content: space-between;
+    height: 65vh;
+    width: 50%;
+    border: transparent 0 none;
+    border-radius: 35px;
+
+    -webkit-box-shadow: 0px 0px 20px 7px rgba(0,0,0,0.1); 
+    box-shadow: 0px 0px 20px 7px rgba(0,0,0,0.1);
+}
+
+.circle{
+    border-radius: 5% 10% 60% 5%;
+    width: 50%;
+    height: 100%;
+    background: rgb(255,175,94);
+    background: linear-gradient(95deg, rgba(255,175,94,1) 71%, rgba(247,129,94,1) 98%);
+    flex: 1;
+}
+
+.formulario{
+    flex: 1;            
+    align-self: center;
+}
+
+.title{
+    font-family: "Arial Black", Gadget, sans-serif;
+    font-size: 35px;
+    letter-spacing: 4px;
+    color: #000000;
+    margin-top: 3%;
+    
+}
+
+.formulario input{
+  margin: 0 .25rem;
+  width: 75%; 
+  border: 1px solid #eee;
+  border-left: 3px solid;
+  border-radius: 5px;
+  background: #F3F6FB ;
+  height: 50px;
+  margin-top: 3%;
+  font-size: 1.0em; 
+}
+
+
+
+.formulario input::placeholder {
+    padding-left:3%;
+}
+
+.loginBtt{
+    background: rgb(247,129,94);
+    background: linear-gradient(95deg, rgba(247,129,94,1) 40%, rgba(255,175,94,1) 90%);
+
+    border: transparent 0 none;
+    border-radius: 19px;
+
+    margin-top: 5%;
+    margin-bottom: 5%;
+    width: 60%;
+    height: 50px;
+
+    font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    color: #fff;
+    font-size:19px;
+    text-align:center;
+    line-height: 1.5em;
+}
+
+.facaLogin{
+    text-decoration: none;
+    color: black;
+}
+
+
+@media(max-width: 1500px){
+    .wrapper{
+        width: 70%;
+    }
+}
+
+@media(max-width: 1170px){
+    .circle{
+        flex: 0;
+    }
+
+    .formulario input {
+
+        margin-top: 2%;
+
+    }
+}
+
+@media(max-width: 850px){
+    .wrapper{
+        width: 70%;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

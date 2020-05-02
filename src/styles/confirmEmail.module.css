@@ -1,0 +1,36 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    
+}
+
+.container{
+    
+    background-image: url(../resources/img/BackgroundIMG.jpg);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+
+.wrapper{
+
+    display: flex;
+    background: #fff;
+    justify-content: space-between;
+    height: 65vh;
+    width: 50%;
+    border: transparent 0 none;
+    border-radius: 35px;
+
+    -webkit-box-shadow: 0px 0px 20px 7px rgba(0,0,0,0.1); 
+    box-shadow: 0px 0px 20px 7px rgba(0,0,0,0.1);
+}
