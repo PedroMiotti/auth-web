@@ -1,3 +1,5 @@
+Login Client developed with ReactJS
+
 # DEPENDENCIES 
 <br>
 
