@@ -27,7 +27,7 @@ const Navbar = ({loggedIn, handleLogout, nome, isLoggeout, reRender}) => {
 }
 
 
-  // Watch the localStorage every time loggedIn and Loggout changes 
+  
   useEffect(() => {
 
     function handleNav(){
